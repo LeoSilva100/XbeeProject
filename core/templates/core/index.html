@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>R.aid</title>
+</head>
+<body>
+{% for i in message %}
+	<h1>({{i.id}})({{i.latitude}})({{i.logitude}})({{i.time_log}})({{i.time_out}})({{i.time_in}})</h1>
+	<br>
+{% endfor %}
+</body>
+</html>
